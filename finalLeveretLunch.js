@@ -32,7 +32,7 @@ function startingPosition(matrix) {
       } else if (matrix.length % 2 === 0 && matrix[y].length % 2 === 1) {
         //x odd, y even
         xIndex = xOption1;
-
+        
         if (matrix[yOption1][xIndex] > matrix[yOption2][xIndex]) {
           yIndex = yOption1;
         } else {
